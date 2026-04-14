@@ -24,7 +24,7 @@ let refreshTimer;
 async function updateWeather(){
   const city = cityInput.value;
 if (!city) {
-  displayError('Input your city man');
+  displayError('Input your city');
       return;
 }
 
