@@ -39,7 +39,7 @@ if (!city) {
 
     weatherInfo.innerHTML = `
     <h2> ${name}, ${sys.country}</h2>
-    <p>Temperature: ${main.temp}</p>
+    <p>Temperature: ${main.temp}°C</p>
     <p>Weather: ${weather[0].description}</p>
     <p>Humidity: ${main.humidity}%</P>
     <p>Wind Speed: ${wind.speed} m/s </p>
