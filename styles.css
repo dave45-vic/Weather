@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: rgba(255, 255, 255, 0.8);
+ 
   margin: 0;
   padding: 0;
   display: flex;
@@ -15,17 +16,19 @@ body {
 
 .container {
   max-width: 600px;
-  padding: 30px;
+  padding: 20px;
   
-  background: linear-gradient(to right, #4facfe, #00f2fe);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+   background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
   backdrop-filter: blur(10px);
   background-image: url(ChatGPT\ Image\ Feb\ 11\,\ 2026\,\ 11_19_15\ AM.png) ;
   animation:  floatImage 3s ease-in-out infinite;
    background-repeat: no-repeat;
    background-position: unset;
    background-size: 100px;
+
+   
 }
 
 h1 {
